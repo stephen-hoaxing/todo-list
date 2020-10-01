@@ -1,6 +1,5 @@
-#TODO List
+# TODO List
 
-##Vanilla JS project using DOM elements
+## Vanilla JS project using DOM elements
 
-###JS, Sass, HTML
-# todo-list
+### JS, Sass, HTML

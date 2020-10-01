@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <title>TODO List</title>
+  </head>
+  <body>
+    <h1>TODO List</h1>
+
+    <div class="themes">
+      <button class="light"><i class="fas fa-sun"></i></button>
+      <button class="dark"><i class="fas fa-moon"></i></button>
+    </div>
+
+    <div class="container">
+      <form class="add-todo">
+        <input type="text" class="todo-name" name="name" />
+        <button class="add-btn" type="submit">
+          <i class="fas fa-plus"></i>
+        </button>
+        <div class="error">
+          <p class="error-text">Please add a valid TODO name</p>
+        </div>
+      </form>
+
+      <div class="todo-list">
+        <div class="todo">
+          <h2 class="todo-title">Groceries</h2>
+          <button class="check"><i class="fas fa-check"></i></button>
+          <button class="trash"><i class="fas fa-trash"></i></button>
+        </div>
+        <div class="todo">
+          <h2 class="todo-title">Wash The Dishes</h2>
+          <button class="check"><i class="fas fa-check"></i></button>
+          <button class="trash"><i class="fas fa-trash"></i></button>
+        </div>
+        <div class="todo">
+          <h2 class="todo-title">Go for a Jog</h2>
+          <button class="check"><i class="fas fa-check"></i></button>
+          <button class="trash"><i class="fas fa-trash"></i></button>
+        </div>
+      </div>
+    </div>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
